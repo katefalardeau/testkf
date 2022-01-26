@@ -1,0 +1,351 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://katefalardeau.github.io/testkf/manifests/manifest3.json",
+  "@type" : "sc:Manifest",
+  "label" : "Oxford, Bodleian Library, MS Lat. liturg. e. 43",
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Usuard"
+  } ],
+  "description" : [ {
+    "@value" : "A 15th-century martyrology",
+    "@language" : "en"
+  } ],
+  "viewingDirection" : "right-to-left",
+  "viewingHint" : "paged",
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "attribution" : "Bodleian Library, University of Oxford",
+  "sequences" : [ {
+    "@id" : "http://9cd27f9d-b93a-4ba8-adaa-e11920f13441",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://01d441ea-7911-4f65-bcaa-c712d98ccc04",
+      "@type" : "sc:Canvas",
+      "label" : "fol. 1r",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3638dc99-f82c-4941-80ec-ac8900c14e38",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-2005/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-2005",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://01d441ea-7911-4f65-bcaa-c712d98ccc04"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c47d4c9d-58a5-4577-8c4c-9fffa5fd9c02",
+      "@type" : "sc:Canvas",
+      "label" : "fol. 1r, cropped",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0c7804b1-b0f2-4921-87e2-48bc3b5de698",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-2006_202201/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-2006_202201",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://c47d4c9d-58a5-4577-8c4c-9fffa5fd9c02"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c7769af8-b5e9-4129-aad0-5ab4a1760d98",
+      "@type" : "sc:Canvas",
+      "label" : "fol. 1v",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8400efa3-1bdf-478f-87df-1ecc48025705",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-2007_202201/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-2007_202201",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://c7769af8-b5e9-4129-aad0-5ab4a1760d98"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://cda11442-f882-41cd-83f6-ea857dcd67bb",
+      "@type" : "sc:Canvas",
+      "label" : "fol. 2r",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://40ac2ad9-8578-4c7c-a941-6d4cab31e0c3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-2008/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-2008",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://cda11442-f882-41cd-83f6-ea857dcd67bb"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://fbf37150-3f9b-42e6-a4ef-28ba5f512efe",
+      "@type" : "sc:Canvas",
+      "label" : "fol. 2v",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f3b3d3d6-4998-417c-867c-6e1583561550",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-2009/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-2009",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://fbf37150-3f9b-42e6-a4ef-28ba5f512efe"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://30999c5d-12c9-4fbd-a114-c7413a06fe8c",
+      "@type" : "sc:Canvas",
+      "label" : "fol. 2v, cropped",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://598b2910-a5f0-4d4a-b7fa-b07870c21127",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-2010_202201/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-2010_202201",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://30999c5d-12c9-4fbd-a114-c7413a06fe8c"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://0dde911d-7bf2-412b-b2e2-15a363a88fe4",
+      "@type" : "sc:Canvas",
+      "label" : "fol. 3r",
+      "height" : 3024,
+      "width" : "4032",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1161cf5e-ab0d-4c4f-87d4-e6c436005284",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-2011/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-2011",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://0dde911d-7bf2-412b-b2e2-15a363a88fe4"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://4c12d441-ce61-496d-b708-214c43a41477",
+      "@type" : "sc:Canvas",
+      "label" : "fol. 3r, cropped",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6a3ba9fa-86b8-468c-8be9-c232604dfe83",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-2012/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-2012",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://4c12d441-ce61-496d-b708-214c43a41477"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://4da3e4d2-3dff-427b-9e32-8c317b3b6d31",
+      "@type" : "sc:Canvas",
+      "label" : "fol. 4v",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://79e1ae39-96a6-4f04-bf10-e06bceee79c2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-2013_202201/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-2013_202201",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://4da3e4d2-3dff-427b-9e32-8c317b3b6d31"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://7d449dcd-9376-43ca-9856-fbbdd5a7701d",
+      "@type" : "sc:Canvas",
+      "label" : "fol. 4v, cropped",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://bd54483e-d6dc-4d63-a091-7dd6acea989d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-2014_202201/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-2014_202201",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://7d449dcd-9376-43ca-9856-fbbdd5a7701d"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://7e691006-1e10-4544-9439-89745673a9f5",
+      "@type" : "sc:Canvas",
+      "label" : "fol. 8v, cropped",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b4cf4719-20a4-49c1-8bdc-0a3e07255329",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-2015/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-2015",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://7e691006-1e10-4544-9439-89745673a9f5"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://4c143a2e-161f-4744-85aa-9184d2699fe4",
+      "@type" : "sc:Canvas",
+      "label" : "fol. 14r",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9115939d-a135-43d6-aa19-a00cbc4d112d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-2017_202201/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-2017_202201",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://4c143a2e-161f-4744-85aa-9184d2699fe4"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://01d441ea-7911-4f65-bcaa-c712d98ccc04" ]
+  } ]
+}
