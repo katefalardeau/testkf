@@ -1,0 +1,13 @@
+{
+  "id" : "https://katefalardeau.github.io/testkf/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in katefalardeau/testkf project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://katefalardeau.github.io/testkf/manifests/manifest3.json",
+    "label" : "Oxford, Bodleian Library, MS Lat. liturg. e. 43"
+  } ]
+}
