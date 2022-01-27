@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://katefalardeau.github.io/testkf/annotations/67f3ffd8307776a21394b631bd86aee7.json" ],
+  "@id" : "https://katefalardeau.github.io/testkf/annotations/collection.json",
+  "label" : "All annotations loaded in katefalardeau/testkf project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
