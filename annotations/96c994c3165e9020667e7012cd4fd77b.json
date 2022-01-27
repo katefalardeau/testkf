@@ -1,0 +1,43 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Initial",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Initial</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "krf",
+      "@type" : "oa:Tag",
+      "chars" : "krf"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/98473093",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2022-01-27T11:38:37",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1643283517152",
+    "dcterms:modified" : "2022-01-27T13:56:19",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://katefalardeau.github.io/testkf/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=593,1867,428,343"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M592.50704,1866.70423h213.95775v0h213.95775v171.3662v171.3662h-213.95775h-213.95775v-171.3662z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_7cce342d-ec91-4597-b3ae-dc8a51f0c2ae\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1.33099\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://c7769af8-b5e9-4129-aad0-5ab4a1760d98"
+    } ]
+  } ],
+  "@id" : "https://katefalardeau.github.io/testkf/annotations/96c994c3165e9020667e7012cd4fd77b.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
