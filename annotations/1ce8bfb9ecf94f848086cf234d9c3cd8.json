@@ -1,0 +1,80 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "krf",
+      "@type" : "oa:Tag",
+      "chars" : "krf"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Vertical lines, later addition",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Vertical lines, later addition</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/98473093",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2022-01-27T15:09:14",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1643296154184",
+    "dcterms:modified" : "2022-01-27T15:09:14",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://katefalardeau.github.io/testkf/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=561,440,396,1881"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M560.56338,439.88732h197.98592v0h197.98592v940.67606v940.67606h-197.98592h-197.98592v-940.67606z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_1c313c90-8c12-496e-b8d2-1b00b508db89\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://fbf37150-3f9b-42e6-a4ef-28ba5f512efe"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "krf",
+      "@type" : "oa:Tag",
+      "chars" : "krf"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Vertical lines, later addition",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Vertical lines, later addition</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/98473093",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2022-01-27T15:09:31",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1643296171537",
+    "dcterms:modified" : "2022-01-27T15:09:31",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://katefalardeau.github.io/testkf/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1849,264,439,2174"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1848.95775,264.19718h219.28169v0h219.28169v1087.08451v1087.08451h-219.28169h-219.28169v-1087.08451z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_0fbb66c4-d434-4f50-ab85-c3afc7c82348\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://fbf37150-3f9b-42e6-a4ef-28ba5f512efe"
+    } ]
+  } ],
+  "@id" : "https://katefalardeau.github.io/testkf/annotations/1ce8bfb9ecf94f848086cf234d9c3cd8.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
