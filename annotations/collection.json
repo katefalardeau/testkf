@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://katefalardeau.github.io/testkf/annotations/67f3ffd8307776a21394b631bd86aee7.json", "https://katefalardeau.github.io/testkf/annotations/b728647d16ce865abd7d59a84b66e6d8.json", "https://katefalardeau.github.io/testkf/annotations/96c994c3165e9020667e7012cd4fd77b.json", "https://katefalardeau.github.io/testkf/annotations/8aaf806808eebeae587bfa7ff74cb480.json", "https://katefalardeau.github.io/testkf/annotations/1ce8bfb9ecf94f848086cf234d9c3cd8.json" ],
+  "otherContent" : [ "https://katefalardeau.github.io/testkf/annotations/67f3ffd8307776a21394b631bd86aee7.json", "https://katefalardeau.github.io/testkf/annotations/b728647d16ce865abd7d59a84b66e6d8.json", "https://katefalardeau.github.io/testkf/annotations/96c994c3165e9020667e7012cd4fd77b.json", "https://katefalardeau.github.io/testkf/annotations/8aaf806808eebeae587bfa7ff74cb480.json", "https://katefalardeau.github.io/testkf/annotations/1ce8bfb9ecf94f848086cf234d9c3cd8.json", "https://katefalardeau.github.io/testkf/annotations/edc8985f395250273d43ca3006d65bd8.json" ],
   "@id" : "https://katefalardeau.github.io/testkf/annotations/collection.json",
   "label" : "All annotations loaded in katefalardeau/testkf project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
