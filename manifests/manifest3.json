@@ -3,6 +3,11 @@
   "@id" : "https://katefalardeau.github.io/testkf/manifests/manifest3.json",
   "@type" : "sc:Manifest",
   "label" : "Oxford, Bodleian Library, MS Lat. liturg. e. 43",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/98473093/a62f0b32817d5119c7f51182cf4b137d/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ {
     "label" : "Author",
     "value" : "Usuard"
@@ -11,7 +16,7 @@
     "@value" : "A 15th-century martyrology",
     "@language" : "en"
   } ],
-  "viewingDirection" : "right-to-left",
+  "viewingDirection" : "left-to-right",
   "viewingHint" : "paged",
   "license" : "https://creativecommons.org/licenses/by/4.0/",
   "attribution" : "Bodleian Library, University of Oxford",
@@ -42,12 +47,16 @@
             "@id" : "https://iiif.archivelab.org/iiif/img-2005",
             "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
           },
-          "height" : 3024,
           "width" : 4032
         },
         "on" : "http://01d441ea-7911-4f65-bcaa-c712d98ccc04"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@id" : "https://katefalardeau.github.io/testkf/annotations/67f3ffd8307776a21394b631bd86aee7.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "KRF annotations"
+      } ]
     }, {
       "@id" : "http://c47d4c9d-58a5-4577-8c4c-9fffa5fd9c02",
       "@type" : "sc:Canvas",
@@ -73,7 +82,12 @@
         },
         "on" : "http://c47d4c9d-58a5-4577-8c4c-9fffa5fd9c02"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@id" : "https://katefalardeau.github.io/testkf/annotations/b728647d16ce865abd7d59a84b66e6d8.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "KRF annotations"
+      } ]
     }, {
       "@id" : "http://c7769af8-b5e9-4129-aad0-5ab4a1760d98",
       "@type" : "sc:Canvas",
@@ -99,7 +113,12 @@
         },
         "on" : "http://c7769af8-b5e9-4129-aad0-5ab4a1760d98"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@id" : "https://katefalardeau.github.io/testkf/annotations/96c994c3165e9020667e7012cd4fd77b.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "KRF annotations"
+      } ]
     }, {
       "@id" : "http://cda11442-f882-41cd-83f6-ea857dcd67bb",
       "@type" : "sc:Canvas",
@@ -125,7 +144,12 @@
         },
         "on" : "http://cda11442-f882-41cd-83f6-ea857dcd67bb"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@id" : "https://katefalardeau.github.io/testkf/annotations/8aaf806808eebeae587bfa7ff74cb480.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "KRF annotations"
+      } ]
     }, {
       "@id" : "http://fbf37150-3f9b-42e6-a4ef-28ba5f512efe",
       "@type" : "sc:Canvas",
@@ -151,7 +175,12 @@
         },
         "on" : "http://fbf37150-3f9b-42e6-a4ef-28ba5f512efe"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@id" : "https://katefalardeau.github.io/testkf/annotations/1ce8bfb9ecf94f848086cf234d9c3cd8.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "KRF annotations"
+      } ]
     }, {
       "@id" : "http://30999c5d-12c9-4fbd-a114-c7413a06fe8c",
       "@type" : "sc:Canvas",
@@ -177,7 +206,12 @@
         },
         "on" : "http://30999c5d-12c9-4fbd-a114-c7413a06fe8c"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@id" : "https://katefalardeau.github.io/testkf/annotations/edc8985f395250273d43ca3006d65bd8.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "KRF annotations"
+      } ]
     }, {
       "@id" : "http://0dde911d-7bf2-412b-b2e2-15a363a88fe4",
       "@type" : "sc:Canvas",
@@ -203,7 +237,12 @@
         },
         "on" : "http://0dde911d-7bf2-412b-b2e2-15a363a88fe4"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@id" : "https://katefalardeau.github.io/testkf/annotations/bd4ffc16b36c3a9ddeb715a22a6f0a8c.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "KRF annotations"
+      } ]
     }, {
       "@id" : "http://4c12d441-ce61-496d-b708-214c43a41477",
       "@type" : "sc:Canvas",
@@ -229,7 +268,12 @@
         },
         "on" : "http://4c12d441-ce61-496d-b708-214c43a41477"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@id" : "https://katefalardeau.github.io/testkf/annotations/a911a95531fbd35c4b8677bcfa7a3188.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "KRF annotations"
+      } ]
     }, {
       "@id" : "http://4da3e4d2-3dff-427b-9e32-8c317b3b6d31",
       "@type" : "sc:Canvas",
@@ -255,7 +299,12 @@
         },
         "on" : "http://4da3e4d2-3dff-427b-9e32-8c317b3b6d31"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@id" : "https://katefalardeau.github.io/testkf/annotations/0e02aea15dd7372de91b0b7b7343aa28.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "KRF annotations"
+      } ]
     }, {
       "@id" : "http://7d449dcd-9376-43ca-9856-fbbdd5a7701d",
       "@type" : "sc:Canvas",
@@ -281,7 +330,12 @@
         },
         "on" : "http://7d449dcd-9376-43ca-9856-fbbdd5a7701d"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@id" : "https://katefalardeau.github.io/testkf/annotations/908781e303946daef42204cf116dd108.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "KRF annotations"
+      } ]
     }, {
       "@id" : "http://7e691006-1e10-4544-9439-89745673a9f5",
       "@type" : "sc:Canvas",
@@ -307,7 +361,12 @@
         },
         "on" : "http://7e691006-1e10-4544-9439-89745673a9f5"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@id" : "https://katefalardeau.github.io/testkf/annotations/47507debdc868c3530a71bdf0f352b42.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "KRF annotations"
+      } ]
     }, {
       "@id" : "http://4c143a2e-161f-4744-85aa-9184d2699fe4",
       "@type" : "sc:Canvas",
@@ -333,7 +392,12 @@
         },
         "on" : "http://4c143a2e-161f-4744-85aa-9184d2699fe4"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@id" : "https://katefalardeau.github.io/testkf/annotations/5a8dd91d7f67fa4986edfd15f90ff830.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "KRF annotations"
+      } ]
     } ]
   } ],
   "structures" : [ {
